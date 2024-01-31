@@ -1,49 +1,36 @@
-# Django Rest Framework (DRF) Course
-Welcome to this full Django Rest Framework (DRF)course. 
-This course is perfect if you are looking to learn DRF and build your own API application.
-***
-***
+# Django REST Framework Course
+
+## Overview
+Learn to build powerful Web APIs with Python and the Django REST Framework (DRF). This course provides a comprehensive guide to creating a web API using DRF, covering various modules for setting up the system, creating API endpoints, implementing authentication, and more.
+
+## Modules
+1. **Introduction**
+   - Overview of the course and its objectives.
+
+2. **Module 1: Clone the code and set up our system**
+   - Instructions for cloning the code repository and setting up the development environment.
+
+3. **Module 2: Add settings and URL configurations**
+   - Configuring project settings and defining URL patterns.
+
+4. **Module 3: Create first API endpoint**
+   - Building the first API endpoint and understanding the basics of DRF.
+
+5. **Module 4: Write unit tests**
+   - Writing unit tests to ensure the reliability of the API.
+
+6. **Module 5: Create endpoints with authentication**
+   - Implementing authentication for API endpoints.
+
+7. **Module 6: Create item and order models and serializers**
+   - Defining models and serializers for items and orders.
+
+8. **Module 7: Code viewsets and routers**
+   - Coding viewsets and routers to handle API requests efficiently.
+
+9. **Module 8: Write final unit tests**
+   - Completing the course with final unit tests to validate the entire API.
 
 ## Prerequisites
-- Python=>3.10
-
-## Considerations
-I have added optional docker containers to simplify the build. If you want to use the docker build you should install Docker and Docker Compose on your local machine.
-
-We will be calling our API throughout the next 8 modules. I have written the requests in (Curl)[https://curl.se/] and (Httpie)[https://httpie.io/]. 
-
-(Httpie)[https://httpie.io/] provides a clean terminal output which is handy for this type of project. You will need to install it locally if you want to use the commands.
->Note: (Httpie)[https://httpie.io/] is pre-installed in the docker container.
-***
-***
-
-## Getting started
-First you will need to clone down the first module.
-
-1) Create a new directory on your local machine. I have called mine drf_course. This is your 'root directory'.
-
-2) Open a terminal and cd into the root directory.
-
-3) You can now clone the first module. You can do this a few different ways. I use SSH...
-
-```
-#option 1 - SSH
-git clone --branch module_1 git@github.com:bobby-didcoding/drf_course.git .
-
-#option 2 - Github CLI
-gh repo clone bobby-didcoding/drf_course .
-git checkout module_1
-
-#option 3 - HTTPS
-git clone --branch module_1 https://github.com/bobby-didcoding/drf_course.git .
-```
-
-***
-***
-
-## Following along
-Each module has a walk through video. All videos can be found in my (Django Rest Framework Course)[https://www.youtube.com/playlist?list=PL5VlxT4gkOFAD2wpucxHY3X2sCzhha5Kz] playlist.
-
-Please open /steps/module_1 to begin.
-***
-***
+- Basic knowledge of Python programming.
+- Familiarity with Django concepts.
